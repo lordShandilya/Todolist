@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: #414141;
+  color: aliceblue;
+}
+
+button {
+  background: transparent;
+  border-radius: 7px;
+  color: aliceblue;
+}
+#tasks {
+  list-style: none;
+}
+
+#completed:checked ~ span {
+  text-decoration: line-through;
+  color: blue;
+}
+
+#myForm {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+#task {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
